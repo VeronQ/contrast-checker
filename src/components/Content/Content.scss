@@ -1,0 +1,45 @@
+@import "../../style/_config.scss";
+
+#content {
+  flex: 1 0 auto;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: sp(10) sp(6);
+}
+
+.l-constrained {
+  width: 100%;
+  max-width: 720px;
+}
+
+.page-title {
+  margin: 0 0 sp(6);
+
+  span {
+    font-size: $font-size-smaller;
+  }
+}
+
+.about-title {
+  margin: 0;
+  font-size: $font-size-large;
+  font-weight: 700;
+}
+
+.about-desc {
+  max-width: 540px;
+  margin: sp(1) 0 0;
+  font-size: $font-size-larger;
+  opacity: 0.8;
+}
+
+#content .btn {
+  float: right;
+  margin: sp(5) 0 0;
+}
+
+#content .stats {
+  margin: sp(10) 0 0;
+}

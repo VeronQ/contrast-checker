@@ -1,0 +1,24 @@
+@import "../../style/_config.scss";
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stat {
+  letter-spacing: 0.025em;
+
+  &-label {
+    opacity: 0.7;
+  }
+
+  &-value {
+    margin: sp(1) 0 0;
+    font-size: 32px;
+  }
+
+  &-max {
+    font-size: $font-size-small;
+  }
+}

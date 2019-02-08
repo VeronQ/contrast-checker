@@ -1,0 +1,42 @@
+
+/*
+ * [ Abstracts > Config ]
+ */
+
+// -----------------------------------------------------------------------------
+
+// 1. Colors
+// ====================================
+
+$white: #FFFFFF;
+$black: #222222;
+
+
+// 2. Utilities
+// ====================================
+
+$u-medias:     unquote('img, video, iframe');
+$u-all:        unquote('*, *:before, *:after');
+
+
+// 3. Typography
+// ====================================
+
+$font-system:           -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+$font-size-base:         16px;
+$font-size-large:        round($font-size-base * 1.250);
+$font-size-larger:       round($font-size-base * 1.125);
+$font-size-smaller:      round($font-size-base * 0.875);
+$font-size-small:        round($font-size-base * 0.750);
+
+$line-height-base:       1.5;
+$headings-line-height:   1.2;
+
+
+// 4. Functions
+// ====================================
+
+@function sp($multiplier) {
+  @return (8px * $multiplier);
+}

@@ -1,0 +1,18 @@
+@import "../../style/_config.scss";
+
+.overlay {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.overlay h1 {
+  max-width: 420px;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding: sp(3);
+  font-size: calc(12px + 1.5vw);
+  color: $white;
+}

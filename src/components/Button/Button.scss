@@ -1,0 +1,22 @@
+@import "../../style/_config.scss";
+
+.btn {
+  display: inline-block;
+  padding: sp(1) sp(3);
+  border: solid 1px transparent;
+  border-radius: 4px;
+  font-size: $font-size-smaller;
+  background: none;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border-color: inherit;
+  color: inherit;
+
+  &:hover {
+    box-shadow: 0 0 3px currentColor;
+  }
+}

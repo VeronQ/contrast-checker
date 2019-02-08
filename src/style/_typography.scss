@@ -1,0 +1,25 @@
+
+/*
+ * [ Typography ]
+ */
+
+// -----------------------------------------------------------------------------
+
+h1 {
+  line-height: $headings-line-height;
+  font-weight: 400;
+  font-size: ($font-size-base * 5);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background: transparent;
+}
+
+a:not(.btn) {
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
