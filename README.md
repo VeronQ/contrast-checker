@@ -9,3 +9,7 @@ Check the contrast of your color palette based on the Web Content Accessibility 
 * [Vue](https://www.npmjs.com/package/vue)
 * [Vuex](https://www.npmjs.com/package/vuex)
 * [Color](https://www.npmjs.com/package/color)
+
+## License
+
+[MIT](https://github.com/VeronQ/contrast-color/blob/master/LICENSE)
